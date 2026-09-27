@@ -1,2 +1,3 @@
 # VisionHOPE
-Official repository for VisionHOPE. Code coming soon.
+Official PyTorch implementation of **VisionHOPE**.
+Code will be released soon.
