@@ -13,6 +13,7 @@
 <p>
   <a href="https://arxiv.org/abs/2609.33325"><img src="https://img.shields.io/badge/arXiv-2609.33325-b31b1b.svg?style=flat-square" alt="arXiv: 2609.33325"></a>
   <a href="#installation"><img src="https://img.shields.io/badge/PyTorch-2.1-EE4C2C.svg?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch 2.1"></a>
+  <a href="https://huggingface.co/PSRben/VisionHOPE"><img src="https://img.shields.io/badge/Hugging%20Face-Models-FFD21E.svg?style=flat-square&amp;logo=huggingface&amp;logoColor=black" alt="Hugging Face Models"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-478A68.svg?style=flat-square" alt="License: MIT"></a>
 </p>
 
@@ -371,7 +372,7 @@ If VisionHOPE is useful for your research, please cite the [arXiv preprint](http
 
 ```bibtex
 @article{peng2026visionhope,
-  title   = {{VisionHOPE}: Visual Backbones as Self-Modifying Learning Systems},
+  title   = {VisionHOPE: Visual Backbones as Self-Modifying Learning Systems},
   author  = {Peng, Siran and Zhang, Tianshuo and Fu, Tianyu and Zhao, Weisong
              and Zhang, Haoyuan and Zhao, Jiankuo and Wu, Minghui and Jiang, Ping
              and Zhu, Xiangyu and Zhao, Chenxu and Lei, Zhen},
