@@ -19,6 +19,7 @@
 
 <p>
   <a href="https://arxiv.org/abs/2609.33325">📄 Paper</a> ·
+  <a href="https://huggingface.co/papers/2609.33325">🤗 Hugging Face Paper</a> ·
   <a href="#updates">Updates</a> ·
   <a href="#overview">Overview</a> ·
   <a href="#main-results">Results &amp; checkpoints</a> ·
