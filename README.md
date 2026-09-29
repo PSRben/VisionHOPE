@@ -6,9 +6,9 @@
 
 <p>
   Siran Peng<sup>*</sup> · Tianshuo Zhang<sup>*</sup> · Tianyu Fu · Weisong Zhao · Haoyuan Zhang<br>
-  Jiankuo Zhao · Minghui Wu · Ping Jiang · Xiangyu Zhu · Chenxu Zhao · Zhen Lei
+  Jiankuo Zhao · Minghui Wu · Ping Jiang · Xiangyu Zhu · Chenxu Zhao<sup>†</sup> · Zhen Lei<sup>†</sup>
 </p>
-<p><sup>*</sup> Equal contribution.</p>
+<p><sup>*</sup> Equal contribution. &nbsp; <sup>†</sup>Corresponding authors.</p>
 
 <p>
   <a href="https://arxiv.org/abs/2609.33325"><img src="https://img.shields.io/badge/arXiv-2609.33325-b31b1b.svg?style=flat-square" alt="arXiv: 2609.33325"></a>
