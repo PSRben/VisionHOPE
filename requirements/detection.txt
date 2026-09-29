@@ -1,0 +1,9 @@
+-r classification.txt
+mmengine==0.10.7
+mmcv==2.1.0
+mmdet==3.3.0
+pycocotools==2.0.11
+opencv-python==4.10.0.84
+scipy==1.15.3
+addict==2.4.0
+yapf==0.43.0

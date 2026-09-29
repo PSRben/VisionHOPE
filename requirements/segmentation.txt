@@ -1,0 +1,10 @@
+-r classification.txt
+mmengine==0.10.7
+mmcv==2.1.0
+mmsegmentation==1.2.2
+opencv-python==4.11.0.86
+scipy==1.15.3
+addict==2.4.0
+yapf==0.43.0
+ftfy==6.3.1
+regex==2026.7.19

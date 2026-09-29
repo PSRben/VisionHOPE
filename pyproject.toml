@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "visionhope"
+version = "0.1.0"
+description = "VisionHOPE visual backbones with self-referential nested learning"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10,<3.12"
+classifiers = ["License :: OSI Approved :: MIT License"]
+dependencies = [
+    "torch>=2.1",
+    "torchvision>=0.16",
+    "timm==0.6.13",
+    "numpy>=1.24,<2",
+    "PyYAML>=6",
+    "ninja>=1.10",
+    "setuptools>=69.5.1,<80",
+]
+
+[tool.setuptools]
+package-dir = {visionhope = "."}
+include-package-data = true
+license-files = ["LICENSE"]
+
+[tool.setuptools.package-data]
+"visionhope" = ["*.sh", "scripts/*.sh", "scripts/*.md", "scripts/train/*.sh", "scripts/test/*.sh", "THIRD_PARTY_NOTICES.md", "docs/*.md", "docs/*.pdf", "docs/*.tex", "docs/licenses/*", "requirements/*.txt"]
+"visionhope.models.srnl_core" = ["csrc/*.cu", "csrc/*.cpp", "csrc/*.cuh"]
+"visionhope.utils" = ["*.md", "csrc/*.cu", "csrc/*.cpp", "csrc/*.cuh"]
+"visionhope.tasks" = ["*.md"]
+"visionhope.analysis" = ["*.md"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

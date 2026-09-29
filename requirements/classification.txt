@@ -1,0 +1,9 @@
+# Install the PyTorch 2.1.0 / torchvision 0.16.0 CUDA 12.1 builds first.
+timm==0.6.13
+numpy==1.26.4
+Pillow==12.3.0
+PyYAML==6.0.3
+# PyTorch's JIT extension builder requires the Ninja executable.
+ninja>=1.10
+# PyTorch 2.1 imports setuptools and pkg_resources when loading JIT extensions.
+setuptools==69.5.1
