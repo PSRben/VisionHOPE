@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+title: "VisionHOPE: Visual Backbones as Self-Modifying Learning Systems"
+type: software
+version: 0.1.0
+message: "If you use VisionHOPE, please cite this repository and the associated paper."
+authors:
+  - family-names: Peng
+    given-names: Siran
+  - family-names: Zhang
+    given-names: Tianshuo
+  - family-names: Fu
+    given-names: Tianyu
+  - family-names: Zhao
+    given-names: Weisong
+  - family-names: Zhang
+    given-names: Haoyuan
+  - family-names: Zhao
+    given-names: Jiankuo
+  - family-names: Wu
+    given-names: Minghui
+  - family-names: Jiang
+    given-names: Ping
+  - family-names: Zhu
+    given-names: Xiangyu
+  - family-names: Zhao
+    given-names: Chenxu
+  - family-names: Lei
+    given-names: Zhen
+repository-code: "https://github.com/PSRben/VisionHOPE"
+url: "https://github.com/PSRben/VisionHOPE"
+license: MIT
+keywords:
+  - computer vision
+  - image classification
+  - visual backbones
+  - self-modifying learning systems
+identifiers:
+  - type: doi
+    value: "10.48550/arXiv.2609.33325"
