@@ -123,6 +123,21 @@ Use these model names and checkpoint filenames for ImageNet-1K classification at
 The train/test scripts look for checkpoints in `weights/`; set `WEIGHTS_ROOT` to use another directory.
 COCO checkpoints are named `visionhope_<size>_coco_<schedule>.pth` (e.g. `visionhope_small_coco_3x.pth`); ADE20K checkpoints are named `visionhope_<size>_ade20k.pth`.
 
+Download a checkpoint from [Hugging Face](https://huggingface.co/PSRben/VisionHOPE) into `weights/` with the [Hugging Face CLI](https://huggingface.co/docs/huggingface_hub/guides/cli). Run these commands from the repository root:
+
+```bash
+python -m pip install --upgrade huggingface_hub
+hf download PSRben/VisionHOPE visionhope_small.pth --local-dir weights
+```
+
+Replace `visionhope_small.pth` with the checkpoint filename for your model and task. To download all classification, COCO, and ADE20K checkpoints:
+
+```bash
+hf download PSRben/VisionHOPE --include "visionhope_*.pth" --local-dir weights
+```
+
+Load an ImageNet-1K checkpoint with Python:
+
 ```python
 import torch
 from visionhope.models import create_model
