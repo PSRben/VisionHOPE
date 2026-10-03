@@ -47,7 +47,7 @@ This repository provides ImageNet classification, COCO detection and instance se
 <p align="center">
   <a href="assets/visionhope-concept.png"><img src="assets/visionhope-concept.png" width="1000" alt="Progression from CNNs, ViTs, SSMs, and TTT to nested learning: VisionHOPE adapts both its memory and the rule that updates it within an image."></a>
 </p>
-<p align="center"><sub>From adaptive visual computation to self-modifying learning within an image.</sub></p>
+<p align="center"><sub>From static local aggregation to self-modifying learning within an image.</sub></p>
 
 ## Updates
 
